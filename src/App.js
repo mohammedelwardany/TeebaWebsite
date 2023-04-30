@@ -1,6 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 import { Home } from './src/screens';
+import CircleDemo, {test} from './src/components/index'
+import { CustomNavbar, Navbar, NavbarCustome } from './src/components/NavBar/navBar';
+
 
 function App() {
   return (
@@ -18,7 +21,8 @@ function App() {
         >
           Learn React
         </a> */}
-        <Home/>
+       {/* <Home/> */}
+       <CustomNavbar/>
       </header>
     </div>
   );
